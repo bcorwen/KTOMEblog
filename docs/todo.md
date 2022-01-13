@@ -20,7 +20,7 @@ Timer | x | x | x | - | x | x
 Widgets | x | x | x | - | - | -
 Wires | x | x | x | - | x | x
 Button | x | x | x | - | x | x
-Keypads || x | x | x | - | x | x
+Keypads | x | x | x | - | x | x
 Simon Says | x | x | x | - | x | x
 Who's on First | - | - | - | - | - | -
 Memory | x | x | x | - | x | x
