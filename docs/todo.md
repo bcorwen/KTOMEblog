@@ -4,11 +4,12 @@
 
 # Current Tasks
 
-- [x] : Refine sound cues by adding local back-up timer to widget ESP
-- [x] : Alter sound amp circuit to make full range of input voltage range
-- [x] : Tweek CAN setup (possibly pull out into another header or otherwise make simpler to define)
-- [x] : Insert game over effects (shut down all lights and flash timer on success, or flash all lights briefly before going dark on failure)
-- [x] : Convert previously coded modules to work on ESP and interact with CAN bus (Button, Wires and Simon says)
+- [ ] : Complete design and print of widgets
+- [ ] : Complete design and print of blank modules
+- [ ] : Design and print Memory
+- [ ] : Design and print Morse Code
+- [ ] : Design and print Venting Gas
+- [ ] : Draw up generic PCB schematic and gerber for modules
 
 ---
 
@@ -32,24 +33,3 @@ Passwords | x | x | x | - | x | x
 Venting Gas | x | x | x | - | - | -
 Capacitor Discharge | - | - | - | - | - | -
 Knobs | - | - | - | - | - | -
-
----
-
-## Programming
-
-- [x] : Basic game logic common to all modules
-- [x] : CAN communication between modules
-- [x] : BLE communication between Master ESP32 and phone app
-- [x] : Complete timer (Master) module
-- [ ] : Complete standard modules (in progress)
-- [ ] : Complete needy modules
-
-## Design
-
-- [x] : Basic module designs
-- [x] : Case and edgework
-- [ ] : Find electronics which matches game as closely as possible (in progress)
-- [ ] : Power solution (in progress - 5V 18600 cells likely)
-- [x] : Module connectors (in progress - USB type-A)
-- [ ] : Complete standard modules
-- [ ] : Complete needy modules
