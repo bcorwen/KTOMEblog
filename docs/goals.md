@@ -22,6 +22,11 @@ The issue with this approach was primarily memory of the Mega and the number of 
 
 The current plan is to have each module run with its own ESP32 microcontroller, communicating with each other using the CAN (aka TWAI) protocol. The modules will be plug-and-play into the bomb chassis, allowing you to build-your-own-bomb. The parts will be designed to have the same functionality and aesthetics as the game (where possible or appropriate!), allowing the original manual to be used. I've purchased a 3D printer which is a new investment for me and another skill to learn. The game will be customisable through a companion phone app, which can set things such as hardcore mode or the game timer via a Bluetooth Low Energy connection.
 
-> ![Recent progress photo](https://i.imgur.com/PVWNPcI.jpg)
+> ![Older progress photo](https://i.imgur.com/PVWNPcI.jpg)
 > 
-> Recent progress photo showing three ESP32s connected by CAN bus.
+> Older progress photo showing three ESP32s connected by CAN bus.
+
+
+> ![Recent case build progress photo](https://i.imgur.com/NKpKTkK.jpg)
+> 
+> Recent case build showing module designs, widget designs and case build.
