@@ -44,7 +44,7 @@ And lastly, after looking and failing to find cheap fairy lights to repurpose, I
 
 So I had my blank module template. Time to cut some holes in it and stick in those arcade buttons. Easy, right?
 
-Nup.
+*Laughs maniacally*
 
 In the original design, the wooden modules took up all of that 130mm x 130mm spcae. Now, however, the modules aren't exactly square due to having tabs and other decorative parts, meaning the usable area is a little smaller. Even the few mm lost meant that the arcade buttons would not fit on the face of the module.
 
