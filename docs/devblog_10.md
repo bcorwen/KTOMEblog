@@ -7,7 +7,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: The Wires module](devblog_9.md)
+[Prev post: The Wires module](devblog_09.md)
 
 ## 2022/04/25 - Let's get physical
 Another quick module (barring the debugging time after finding some of my rules were slightly out!) which completed the fourth module and all of the modules previously completed in the prototype.
@@ -30,4 +30,4 @@ It's been tested to work with actual wire cutters and has been coded to ignore a
 
 Now I'm sick of looking at breadboards and a tangle of wires. Why not try to switch tack away from electronics and coding, and on to something more physical?
 
-[Prev post: The Wires module](devblog_9.md)
+[Prev post: The Wires module](devblog_09.md)
