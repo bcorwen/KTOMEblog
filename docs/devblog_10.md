@@ -98,7 +98,7 @@ The Timer would get a similar but shorter module box, having the effect of makin
 
 So as hinted earlier, these parts were primarily printed with PETG as I thought it would be a tougher choice of material, however I found it much harder to work with than PLA and PLA turned out to be tough enough. Plus, PLA comes in many more colours so I decided to just stick with PLA only in future.
 
-There was also a revision to the guiding rails on the module boxes, as well as more design choices and the physical and electrical connectors... but I know I couldn't solve these issues until I knew more about the bomb case and how the modules would fit into the case.
+There was also a revision to the guiding rails on the module boxes, as well as more design choices and the physical and electrical connectors... but I know I couldn't solve these issues until I knew more about the bomb case would look like and how the modules would fit into the case.
 
 It was time to pause progress on module printing and tackle the big picture - how to build the case.
 
