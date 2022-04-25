@@ -28,7 +28,7 @@ The design follows the same dimensions as the prototype: 130mm x 130mm x 70mm mo
 
 I added some rails along the sides of the module box, thinking these could be used to both act as a guide rail when inserting the modules into the case, as well as providing a good spot for the bolts that will attach the faceplate to the box (visible in the next photo).
 
-Pretty happy with the design, I next needed to master the 3D printer which I'd not used to print many of my own designed before, so there was some additional patience needed between the long print times and making refinements. But the end result was pretty good!
+Pretty happy with the design, I next needed to master the 3D printer which I'd not used to print many of my own designs before, so there was some additional patience needed between the long print times and making refinements. But the end result was pretty good!
 
 > ![Printed blank module](https://i.imgur.com/jIO5Kj7.jpg)
 > 
