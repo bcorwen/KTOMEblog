@@ -52,7 +52,7 @@ In the original design, the wooden modules took up all of that 130mm x 130mm spc
 > 
 > The arcade buttons were simply too wide to fit the new module design
 
-I like a good challenge so, after only just getting recently learning CAD again and only having made simple shapes, I decided I could CAD and print my way out of this problem. Instead of using the plastic button housings as provided, which have a lot of space around them, I could CAD this complex shape and reduce the margins to squeeze the 4 buttons in closer together. This took so, so many attempts to get just right (as I had to attempt to dimension small features I couldn't reach with my callipers and refine small and sensitive features such as the spring holder and clips for the arcade switches) but I eventually had a printed piece which you could pop the arcade buttons and switched into!
+I like a good challenge so, after only just getting recently learning CAD again and only having made simple shapes, I decided I could CAD and print my way out of this problem. Instead of using the plastic button housings as provided, which have a lot of space around them, I could CAD this complex shape and reduce the margins to squeeze the 4 buttons in closer together. This took so, so many attempts to get just right (as I had to attempt to dimension small features I couldn't reach with my callipers and refine small and sensitive features such as the spring holder and clips for the arcade switches) but I eventually had a printed piece which you could pop the arcade buttons and switches into!
 
 > ![Test showing the first attempt](https://i.imgur.com/SqmcD6D.jpg)
 > 
