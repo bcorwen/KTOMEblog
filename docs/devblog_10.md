@@ -72,8 +72,7 @@ And after finally getting a working button housing piece, it was ready to bolt t
 
 Next, on to something a little different. The Timer looks like no other, so I wanted to tackle this unique design next.
 
-The challenge here was another tight squeeze to make things fit. The original 130mm module size was picked as it was the tightest size for both the Simon buttons and the Timer's timer. The timer display is 120mm wide, and leaving some space for a 10mm border (plus some creative packing to make good use of space), this would just work. The timer comes with a preceeding colon which is not needed for Keep Talking, so the timer could be designed to clip into the frame to both save space and hide the colon:
-
+The challenge here was another tight squeeze to make things fit. The original 130mm module size was picked as it was the tightest size for both the Simon buttons and the Timer's timer. The timer display is 120mm wide, and leaving some space for a 10mm border (plus some creative packing to make good use of space), this would just work. The timer comes with a preceeding colon which is not needed for Keep Talking, so the frame could be designed to clip into the timer display to both save space and hide the colon:
 
 > ![Timer from the front](https://i.imgur.com/g59ZtjN.jpg)
 > 
