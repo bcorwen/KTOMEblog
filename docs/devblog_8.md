@@ -12,7 +12,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 ## 2021/06/11 - The Simon module
 The Simon module also didn't take long to code, however getting around to this post did! I had this one running back in early May but it's only now I've remembered to write it up.
 
-Just like the Button, I had this module working in the prototype, and yet the changes in the structure meant that very few lines of code were directly reused. The custom LED library I wrote for this project was excellent in handling the light blinking, so although there wa sa lot to re-write, it was fairly painless to get running quickly!
+Just like the Button, I had this module working in the prototype, and yet the changes in the structure meant that very few lines of code were directly reused. The custom LED library I wrote for this project was excellent in handling the light blinking, so although there was a lot to re-write, it was fairly painless to get running quickly!
 
 > ![Simon test with the Debugger](https://i.imgur.com/cJbA7Qy.jpg)
 > 
