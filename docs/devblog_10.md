@@ -92,7 +92,7 @@ The rest of the module was just a case of following the design of the original, 
 > 
 > The finished Timer.
 
-The Timer would get a similar but shorter module box, having the effect of making the black face look sunken into the case. The original design looks a little ambiguous about whether the face of the Timer module is black or simply hidden in a shadow.
+The Timer would get a similar but shorter module box, having the effect of making the black face look sunken into the case. The original design looks a little ambiguous about whether the face of the Timer module is black or simply hidden in a shadow, so I feel this is a good fit.
 
 ### Conclusion
 
