@@ -7,7 +7,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: Origins](devblog_1.md) | [Next post: Communications (part 1): CAN](devblog_3.md)
+[Prev post: Origins](devblog_01.md) | [Next post: Communications (part 1): CAN](devblog_03.md)
 
 ## 2021/01/24 - Moving to the ESP32 and the new bomb structure
 This is another long overdue update covering about May to July 2020, after retiring the prototype to move from using the Arduino Mega to ESP32s. It's a short one but covers a lot of the considerations of moving microcontrollers.
@@ -43,4 +43,4 @@ While that idea was forming, I began importing the Timer and Keypad modules pret
 > 
 > The Timer and Keypad build using ESP32s
 
-[Prev post: Origins](devblog_1.md) | [Next post: Communications (part 1): CAN](devblog_3.md)
+[Prev post: Origins](devblog_01.md) | [Next post: Communications (part 1): CAN](devblog_03.md)
