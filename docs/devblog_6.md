@@ -33,7 +33,7 @@ I decided to keep bits for each module, however the unique module IDs are counte
 
 One last little build that I became sidetracked with...
 
-I had an issue in testing the modules I was making. To do so, I needed to load up the phone app editting website, build the app and transfer it to my phone, load the app, connect to the Timer ESP32 via Bluetooth, set up the bomb by going through the manual confirmation checks, then I could start the game and test the logic fully... so long as I didn't take my time and only made a couple of mistakes, otherwise I'd have to restart another game. Having the full game logic in there was goodt for fully testing everything, but not for quick checks during regular development.
+I had an issue in testing the modules I was making. To do so, I needed to load up the phone app editting website, build the app and transfer it to my phone, load the app, connect to the Timer ESP32 via Bluetooth, set up the bomb by going through the manual confirmation checks, then I could start the game and test the logic fully... so long as I didn't take my time and only made a couple of mistakes, otherwise I'd get a game over and have to restart another game. Having the full game logic in there was good for fully testing everything, but not for quick checks during regular development.
 
 I decided to grab another ESP and create a quick debugger, which would be able to transmit most key messages over CAN. No more phone apps needed, no time limits or strike limits. And from the module being tested's point of view, it receives and can send all the messages as if it were connected to the real Timer.
 
