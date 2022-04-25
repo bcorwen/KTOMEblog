@@ -10,10 +10,10 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 [Prev post: The Wires module](devblog_09.md)
 
 ## 2022/04/25 - Let's get physical
-Wow, ok... it's been a long time since the last update. I hit a long run of momentum on the project and didn't want to slow down to write up these blog posts, but then forgot when things slowed down once again.
+Wow, ok... it's been a long time since the last update. I hit a long run of momentum on the project and didn't want to slow down to write up these blog posts, but then forgot when things settled down once again.
 This post is a short catch-up for June 2021
 
-As mentioned in the previous post, I've been building up the electronics on breadboards and updating the code from the prototype. This progress was good but I was tired of the messy wires and difficulty in showing some interesting updates. I decided it was time to park the coding and focus on the physical design of the bomb.
+As mentioned in the previous post, I've been building up the electronics on breadboards and updating the code from the prototype. This progress was good but I was tired of the messy wires and had difficulty in showing some interesting updates. I decided it was time to park the coding and focus on the physical design of the bomb.
 
 ### Starting the design
 My goal is to replicate the look and feel of the game as far as is possible, so I sat down with the aim of slavishly copying the module design.
