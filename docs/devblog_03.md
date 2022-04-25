@@ -7,13 +7,13 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: Moving to the ESP32 (+ The Keypad module)](devblog_2.md) | [Next post: Communications (part 2): BLE](devblog_4.md)
+[Prev post: Moving to the ESP32 (+ The Keypad module)](devblog_02.md) | [Next post: Communications (part 2): BLE](devblog_04.md)
 
 ## 2021/01/31 - Communications (part 1): CAN
 Another catch-up update covering about August to November 2020.
 
 ### The need for comms
-As discussed in the [previous post](devblog_2.md), now that I would be using one ESP32 per module there would need to be some way for the microcontrollers to communicate with one another. Having converted a good portion of the old code to create basic Timer and Keypad modules, I began to break down potential types of messages that would need to be exchanged to ensure a game flow and consistent states across the system.
+As discussed in the [previous post](devblog_02.md), now that I would be using one ESP32 per module there would need to be some way for the microcontrollers to communicate with one another. Having converted a good portion of the old code to create basic Timer and Keypad modules, I began to break down potential types of messages that would need to be exchanged to ensure a game flow and consistent states across the system.
 
 > ![Flow diagram](https://i.imgur.com/ritYqLI.jpg)
 > 
@@ -189,4 +189,4 @@ One of my brief video updates covers much of what is discussed here in context; 
 
 And since I started with the Keypad module as our only slave and that we have been mentioning manual setup in this post and last, it's no spoiler that I needed to test that Keypad module by knowing which symbols are being generated and whether it is correctly striking or defusing. After thinking of options, it seemed plausible to create a phone app which could pair to the Timer via Bluetooth and give the user a visual read-out of the Keypad symbols. The next blog post will cover the creation of the companion app, how to communicate with the ESP32 with Bluetooth Low Energy, and how the message protocol was created.
 
-[Prev post: Moving to the ESP32 (+ The Keypad module)](devblog_2.md) | [Next post: Communications (part 2): BLE](devblog_4.md)
+[Prev post: Moving to the ESP32 (+ The Keypad module)](devblog_02.md) | [Next post: Communications (part 2): BLE](devblog_04.md)
