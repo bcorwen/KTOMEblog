@@ -10,24 +10,63 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 [Prev post: The Wires module](devblog_09.md)
 
 ## 2022/04/25 - Let's get physical
-Another quick module (barring the debugging time after finding some of my rules were slightly out!) which completed the fourth module and all of the modules previously completed in the prototype.
+Wow, ok... it's been a long time since the last update. I hit a long run of momentum on the project and didn't want to slow down to write up these blog posts, but then forgot when things slowed down once again.
+This post is a short catch-up for June 2021
 
-The code is pretty short and sweet, with the longest and most complex piece being the rules to determine the correct wire to cut.
+As mentioned in the previous post, I've been building up the electronics on breadboards and updating the code from the prototype. This progress was good but I was tired of the messy wires and difficulty in showing some interesting updates. I decided it was time to park the coding and focus on the physical design of the bomb.
 
-> ![Wires module on the breadboard](https://i.imgur.com/xymZz9t.jpg)
+### Starting the design
+My goal is to replicate the look and feel of the game as far as is possible, so I sat down with the aim of slavishly copying the module design.
+
+It had been a while since I did some CAD (and even back then it was fairly basic stuff) but got to grips with Fusion 360 fairly quickly to produce a blank template module:
+
+> ![Module template](https://i.imgur.com/JmkDDSH.png)
 > 
-> Wires module on the breadboard
+> CAD model of a blank module
 
-One of the most time consuming parts of bringing this module fully online is preparing the phone app. As this module needs manual setup, the wire colours needed to be relayed through the Timer ESP32 and on to the phone app for display. This is tricky in the graphical coding interface of the Kodular site, however was up and running pretty quickly.
+The design follows the same dimensions as the prototype: 130mm x 130mm x 70mm module boxes, with the face of the module extending beyond that 70mm deep box.
 
-> ![Phone app setup screen for Wires](https://i.imgur.com/mdUHj9m.png?)
+I added some rails along the sides of the module box, thinking these could be used to both act as a guide rail when inserting the modules into the case, as well as providing a good spot for the bolts that will attach the faceplate to the box (visible in the next photo).
+
+Pretty happy with the design, I next needed to master the 3D printer which I'd not used to print many of my own designed before, so there was some additional patience needed between the long print times and making refinements. But the end result was pretty good!
+
+> ![Printed blank module](https://i.imgur.com/jIO5Kj7.jpg)
 > 
-> Phone app setup screen for Wires
+> The printed blank module - This was done in PETG which I've since stopped using in favour of PLA
 
-One key deviation from Wires and the other manual setup modules so far is the fact that this module can test and should verify the connected wires before game start. Say it expects 5 wires with the 3rd connection empty. Well the ESP can detect that and when the user presses the button on the app saying that the module is setup, then the ESP can double check this. It could be a very important check to avoid an instant strike during gameplay due to a faulty connector. This caused a huge headache with the Timer code so far, and so got a huge overhaul to have a better flow as messages pass over CAN and BLE.
+And lastly, after looking for cheap fairy lights to repurpose, I decided to try to print the incidator light, which also turned out really well. Printing transparent items doesn't usually come out looking very clear, but the diffuse, translucent result was perfect to catch the light for this print:
 
-It's been tested to work with actual wire cutters and has been coded to ignore any disconnected wires reconnecting (say if you pulled a wire out but it momentarily connected back up, which is easy to do on the timescales microcontrollers work). It's a satifying "snip" sound to defuse the module and the whole bomb too!
+> ![Test of the printed indicator light](https://i.imgur.com/EsCsnif.jpg)
+> 
+> Test of the printed indicator light, with an RGB LED showing how well it illuminates!
 
-Now I'm sick of looking at breadboards and a tangle of wires. Why not try to switch tack away from electronics and coding, and on to something more physical?
+### Designing and printing Simon
+
+So I had my blank module template. Time to cut some holes in it and stick in those arcade buttons. Easy, right?
+
+Nup.
+
+In the original design, the wooden modules took up all of that 130mm x 130mm spcae. Now, however, the modules aren't exactly square due to having tabs and other decorative parts, meaning the usable area is a little smaller. Even the few mm lost meant that the arcade buttons would not fit on the face of the module.
+
+> ![Arcade buttons not fitting the module](https://i.imgur.com/01xHdh5.jpg?1)
+> 
+> The arcade buttons were simply too wide to fit the new module design
+
+I like a good challenge, so decided I could CAD and print my way out of this problem. Instead of using the plastic button housings as provided, which have a lot of space around them, I could CAD this complex shape and reduce the margins to squeeze the 4 buttons in closer together. This took so, so many attempts to get just right (as I had to attempt to dimension small features I couldn't reach with my callipers and refine small and sensitive features such as the spring holder and clips for the arcade switches) but I eventually had a printed piece which you could pop the arcade buttons and switched into!
+
+> ![Test showing the first attempt](https://i.imgur.com/SqmcD6D.jpg)
+> 
+> Showing the original button housing (right) and printed recreation (left)
+> 
+> ![Test showing two buttons](https://i.imgur.com/bz3KSaS.jpg)
+> 
+> Test showing two buttons fitted
+
+And after finally getting a working button housing piece, it was ready to bolt together and the first module was printed!
+
+> ![Finished Simon design](https://i.imgur.com/yS3nrTJ.jpg)
+> 
+> Finished Simon design!
+
 
 [Prev post: The Wires module](devblog_09.md)
