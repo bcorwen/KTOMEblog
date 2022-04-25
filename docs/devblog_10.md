@@ -34,7 +34,7 @@ Pretty happy with the design, I next needed to master the 3D printer which I'd n
 > 
 > The printed blank module - This was done in PETG which I've since stopped using in favour of PLA
 
-And lastly, after looking for cheap fairy lights to repurpose, I decided to try to print the incidator light, which also turned out really well. Printing transparent items doesn't usually come out looking very clear, but the diffuse, translucent result was perfect to catch the light for this print:
+And lastly, after looking and failing to find cheap fairy lights to repurpose, I decided to try to print the incidator light, which also turned out really well. Printing transparent items doesn't usually come out looking very clear, but the diffuse, translucent result was perfect to catch the light for this print:
 
 > ![Test of the printed indicator light](https://i.imgur.com/EsCsnif.jpg)
 > 
