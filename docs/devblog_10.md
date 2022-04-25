@@ -83,7 +83,24 @@ The challenge here was another tight squeeze to make things fit. The original 13
 > 
 > Timer from the back, showing the efficient use of space
 
+The rest of the module was following the design of the original, including a similar frame around the 14-segment strike display. Then it was time to print and bolt everything together.
 
+> ![Timer displays held in with braces](https://i.imgur.com/LencYf3.jpg)
+> 
+> The displays were held in place with some printed brace parts.
+> 
+> ![Finished Timer](https://i.imgur.com/5oC0l6c.jpg)
+> 
+> The finished Timer.
 
+The Timer would get a similar but shorter module box, making the black face sunken into the case. The original design looks a little ambiguous about whether the face of the Timer module is black or simply hidden in a shadow.
+
+### Conclusion
+
+So as hinted earlier, these parts were primarily printed with PETG as I thought it would be a tougher choice of material, however I found it much harder to work with than PLA and PLA turned out to be tough enough. Plus, PLA comes in many more colours so I decided to just stick with PLA only in future.
+
+There was also a revision to the guiding rails on the module boxes, as well as more design choices and the physical and electrical connectors... but I know I couldn't solve these issues until I knew more about the bomb case and how the modules would fit into the case.
+
+It was time to pause progress on module printing and tackle the big picture - how to build the case.
 
 [Prev post: The Wires module](devblog_09.md)
