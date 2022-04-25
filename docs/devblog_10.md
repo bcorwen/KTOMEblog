@@ -82,7 +82,7 @@ The challenge here was another tight squeeze to make things fit. The original 13
 > 
 > Timer from the back, showing the efficient use of space
 
-The rest of the module was following the design of the original, including a similar frame around the 14-segment strike display. Then it was time to print and bolt everything together.
+The rest of the module was just a case of following the design of the original, including a similar frame around the 14-segment strike display. Then it was time to print and bolt everything together.
 
 > ![Timer displays held in with braces](https://i.imgur.com/LencYf3.jpg)
 > 
