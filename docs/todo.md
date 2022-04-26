@@ -4,12 +4,18 @@
 
 # Current Tasks
 
+## Design:
 - [ ] : Complete design and print of widgets
 - [X] : Complete design and print of blank modules
 - [ ] : Design and print Memory
 - [ ] : Design and print Morse Code
 - [ ] : Design and print Venting Gas
+
+## PCB:
 - [X] : Draw up generic PCB schematic and gerber for modules
+- [X] : Order test PCBs
+- [X] : Test PCB (programming, CAN comms, serial connector)
+- [ ] : Create specific module PCBs
 
 ---
 
