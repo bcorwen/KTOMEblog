@@ -44,7 +44,7 @@ As for inputs, rather than the left and right buttons to select frequency, I opt
 
 Lastly, the display. I used the u8g2 library to draw the lettering. To get the correct font as the game, I needed to go through a few steps to convert the font into a c data file which the library could then use. This was a little painful to do, and I had to do it a few times until I was happy with the size of the font.
 
-> ![Morse](https://i.imgur.com/fYE49iZ.mp4)
+> ![Morse](https://i.imgur.com/GYJXWpX.png)
 > 
 > Morse code testing
 
