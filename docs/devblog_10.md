@@ -7,7 +7,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: The Wires module](devblog_09.md)
+[Prev post: Coding The Wires module](devblog_09.md) | [Prev post: Coding oding Passwords and Morse](devblog_11.md)
 
 ## 2022/04/25 - Let's get physical
 Wow, ok... it's been a long time since the last update. I hit a long run of momentum on the project and didn't want to slow down to write up these blog posts, but then forgot when things settled down once again.
@@ -102,4 +102,4 @@ There was also a revision to the guiding rails on the module boxes, as well as m
 
 It was time to pause progress on module printing and tackle the big picture - how to build the case.
 
-[Prev post: The Wires module](devblog_09.md)
+[Prev post: Coding The Wires module](devblog_09.md) | [Prev post: Coding oding Passwords and Morse](devblog_11.md)
