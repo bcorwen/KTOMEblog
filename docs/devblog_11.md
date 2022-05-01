@@ -9,7 +9,8 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 [Prev post: Let's get physical](devblog_10.md)
 
-## 2022/04/25 - Coding Passwords and Morse Code
+## 2022/05/01 - Coding PAsswords and Morse
+
 
 
 ### 
