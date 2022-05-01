@@ -7,9 +7,9 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: OOP revamp, CAN shake-up and the Debugger](devblog_06.md) | [Next post: The Simon module](devblog_08.md)
+[Prev post: OOP revamp, CAN shake-up and the Debugger](devblog_06.md) | [Next post: Coding The Simon module](devblog_08.md)
 
-## 2021/04/27 - The Button module
+## 2021/04/27 - Coding The Button module
 The Button didn't take long to code so here's another post!
 
 I'd hoped to use a lot of the prototype code to get the button up an running, however the only part I ended up being able to use was the function which looks at the button characteristics and widgets to decide what the correct input should be. The switch to OOP and multi-MCU layout meant it was easier to re-write the rest.
@@ -31,4 +31,4 @@ More testing is required before I can call the Button done, but it behaves very 
 
 The most encouraging thing about the Button was that it only took about 3 hours to code and build on the breadboard. The OOP structure of the Keypad meant I had a very easy basis to use for the Button, and this will only get easier to recreate the other modules.
 
-[Prev post: OOP revamp, CAN shake-up and the Debugger](devblog_06.md) | [Next post: The Simon module](devblog_08.md)
+[Prev post: OOP revamp, CAN shake-up and the Debugger](devblog_06.md) | [Next post: Coding The Simon module](devblog_08.md)
