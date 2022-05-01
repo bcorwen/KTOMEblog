@@ -9,15 +9,31 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 [Prev post: Let's get physical](devblog_10.md)
 
-## 2022/05/01 - Coding PAsswords and Morse
+## 2022/05/01 - Coding Passwords and Morse
+Again - playing catch-up with progress - this post covers progress in June to July 2021.
 
+Well this isn't the case as promised at the end of the last post! I had designed the case and sent off for parts, but while I waited I managed to knock up two modules on the breadboards, so the case comes later!
 
+### Passwords
+This was a new module to code. Unlike th eprevious ones, I hadn't attempted this module on the old Arduino prototype so this was built from scratch.
 
-### 
+A long time prior to coding this up, I had been digging around for electronics components to match the look of the game. In this case, I had a lot of fun looking at finding a matching GLCD (graphical LCD) to use for the main display.
 
-> ![Module template](https://i.imgur.com/JmkDDSH.png)
+> ![Passwords](https://i.imgur.com/oMkNBHf.jpg)
 > 
-> CAD model of a blank module
+> Passwords module after finding the right solution
+
+Apart from the screen, the hardware just required 11 buttons to make this work. The ESP32 was running low on pins, but it was doable to hook each button to a pin. Instead of taking that easy route, I decided to try a keyboard matrix to handle the buttons as a little challenge. This was fairly straight-forward to wire up after looking at a few resources online, but I needed a whole second breadboard to fit the buttons...
+
+> ![Passwords with matrix](https://i.imgur.com/hywiyue.jpg)
+> 
+> Passwords module with the button matrix
+
+Moving on to the code, this was a tricky one. Tricky two actually...
+
+The first issue was getting the letters on the display. Screens like these are supported by the great u8g2 library, however to save space (fonts can take a fair chunk of memory) I decided to manually draw the letters using 4x4 pixel boxes. This worked very quickly and I had great control over where the letters appeared on the display, so I could try to match the design of the game as much as possible.
+
+The second issue was coding the game logic which determined the list of possible letters you can cycle though. In the game, there are 6 letters that can be selected for each of the 5 places in the displayed word. This list, however, must only contain one of the words from the accepted word list - the list of words in the manual that are must be entered to solve the module. I started with a full alphabet of possibilities in each of the 5 places, chose an accepted word which would be the solution to this game, then looped through each of the other accepted words and removed a letter from one of the places at random (thus removing the ability to input that word). But I needed to check that the letters I removed wren't in the selected accepted word, or another letter in another place would be picked to be removed. After eliminating the other accepted words, then more letters would be removed to get down to the 6 letters for each place. And lastly, another final check to make sure that the first possible letters that are initially shown on the screen are not the actual selected word (otherwise the puzzle would come pre-solved!) so this would need a shuffle.
 
 
 [Prev post: Let's get physical](devblog_10.md)
