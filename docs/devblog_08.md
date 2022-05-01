@@ -7,9 +7,9 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: The Button module](devblog_07.md) | [Next post: The Wires module](devblog_09.md)
+[Prev post: Coding The Button module](devblog_07.md) | [Next post: Coding The Wires module](devblog_09.md)
 
-## 2021/06/11 - The Simon module
+## 2021/06/11 - Coding The Simon module
 The Simon module also didn't take long to code, however getting around to this post did! I had this one running back in early May but it's only now I've remembered to write it up.
 
 Just like the Button, I had this module working in the prototype, and yet the changes in the structure meant that very few lines of code were directly reused. The custom LED library I wrote for this project was excellent in handling the light blinking, so although there was a lot to re-write, it was fairly painless to get running quickly!
@@ -24,4 +24,4 @@ Maybe a video of the three modules up to this point would demonstrate [something
 
 As Simon only took a couple of days to build and another one to polish, it was time to move on to finish the last module I coded in the prototype - The Wires.
 
-[Prev post: The Button module](devblog_07.md) | [Next post: The Wires module](devblog_09.md)
+[Prev post: Coding The Button module](devblog_07.md) | [Next post: Coding The Wires module](devblog_09.md)
