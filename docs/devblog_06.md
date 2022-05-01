@@ -7,7 +7,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: Timer and Widgets module](devblog_05.md) | [Next post: The Button module](devblog_07.md)
+[Prev post: Coding The Timer and Widgets module](devblog_05.md) | [Next post: Coding The Button module](devblog_07.md)
 
 ## 2021/04/26 - Object-Oriented Programming revamp, CAN shake-up and the Debugger
 Quite a varied blog post as you can tell by the title! I've had a lot of different projects going on since the last update in February, but dove in again recently to score some successes.
@@ -40,4 +40,4 @@ I decided to grab another ESP and create a quick debugger, which would be able t
 Here's a [quick vid](https://www.youtube.com/watch?v=JbI927Qq8Pw&list=PLJqFvAhkcSkkks42zClG5WlvO1khFZCKK&index=9) or maybe you want the [longer walk-through](https://www.youtube.com/watch?v=L1Xfc9mjphY&list=PLJqFvAhkcSkkks42zClG5WlvO1khFZCKK&index=11)?
 
 
-[Prev post: Timer and Widgets module](devblog_05.md) | [Next post: The Button module](devblog_07.md)
+[Prev post: Coding The Timer and Widgets module](devblog_05.md) | [Next post: Coding The Button module](devblog_07.md)
