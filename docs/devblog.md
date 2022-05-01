@@ -11,18 +11,18 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ### [2021/06/14 - The Wires module](devblog_09.md)
 
-### [2021/06/11 - The Simon module](devblog_08.md)
+### [2021/06/11 - Coding The Simon module](devblog_08.md)
 
-### [2021/04/27 - The Button module](devblog_07.md)
+### [2021/04/27 - Coding The Button module](devblog_07.md)
 
 ### [2021/04/26 - Object-Oriented Programming revamp, CAN shake-up and the Debugger](devblog_06.md)
 
-### [2021/02/06 - Timer and Widgets module](devblog_05.md)
+### [2021/02/06 - Coding The Timer and Widgets module](devblog_05.md)
 
 ### [2021/02/06 - Communications (part 2): BLE](devblog_04.md)
 
 ### [2021/01/31 - Communications (part 1): CAN](devblog_03.md)
 
-### [2021/01/24 - Moving to the ESP32 and the new bomb structure (+ The Keypad module)](devblog_02.md)
+### [2021/01/24 - Moving to the ESP32 and the new bomb structure (+ Coding The Keypad module)](devblog_02.md)
 
 ### [2021/01/23 - Origins](devblog_01.md)
