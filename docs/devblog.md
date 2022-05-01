@@ -7,6 +7,8 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
+### [2022/05/01 - Coding Passwords and Morse](devblog_11.md)
+
 ### [2022/04/25 - Let's get physical](devblog_10.md)
 
 ### [2021/06/14 - Coding The Wires module](devblog_09.md)
