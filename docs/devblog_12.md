@@ -82,7 +82,7 @@ These worked perfectly. As both the modules and back-plates were designed in CAD
 
 ### Wrapping up
 
-This all happened over the course of a few months. It took a lot of time to build, disassemble, reassemble, etc the case when I needed to make a major adjustment or addition. But it was all starting to come together and I could see what the finished product might actually look like.
+This all happened over the course of a few months. It took a lot of time to build, disassemble, reassemble, etc the case when I needed to make a major adjustment or addition, all while working on more module designs and programming new modules. But it was all starting to come together and I could see what the finished product might actually look like.
 
 There was still a lot of work to be done just on the case. The outer frame was not attached to the inner case for the majority of the time as the widgets and side panels had not been concepted yet, and big questions remained over how this would best be done. So I'll save that story for a later post...
 
