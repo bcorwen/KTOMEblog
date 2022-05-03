@@ -54,7 +54,7 @@ It was a lot tougher to bolt the extrusions together than I thought it would, an
 
 It looks great! This project is almost looking professional...
 
-One big change at this point was to the modules themselves. The original modules, which entirely fit within the 130mm height and width looked completely lost in the case! They were just too small. I ended up redesigning the modules to be a little larger (good for having to fit in the components), leaving the edges of the faces to stick out over the inner case. This would stop the modules being pushed too far inside. Win-win!
+One big change at this point was to the modules themselves. The original modules, which entirely fit within the 130mm height and width looked completely lost in the case! They were just too small. I ended up redesigning the modules to be a little larger (good for having to fit in the components), leaving the edges of the faces to stick out over the inner case. This would stop the modules being pushed too far inside. Win-win! The modules also changed from having 8 grooves on the sides (designed to help the modules slide in place into the frame) to just 4. To make use of the 8 would have required much more of an extrusion lattice on the inside, and the current mass of extrusion was totalling about 6kg! You may notice a difference in themodule boxes between the module design post and photos shown further down...
 
 ### Back-plates and Connections
 
