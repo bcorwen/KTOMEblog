@@ -9,7 +9,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 [Prev post: Coding Passwords and Morse](devblog_11.md)
 
-## 2022/05/01 - Building the case
+## 2022/05/03 - Building the case
 More catch-up with prior progress - this post covers progress in July 2021 and very slowly onwards.
 
 ### Case Concept
