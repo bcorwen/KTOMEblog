@@ -15,7 +15,7 @@ Again - playing catch-up with progress - this post covers progress in June to Ju
 Well this isn't the case as promised at the end of the last post! I had designed the case and sent off for parts, but while I waited I managed to knock up two modules on the breadboards, so the case comes later!
 
 ### Passwords
-This was a new module to code. Unlike th eprevious ones, I hadn't attempted this module on the old Arduino prototype so this was built from scratch.
+This was a new module to code. Unlike the previous ones, I hadn't attempted this module on the old Arduino prototype so this was built from scratch.
 
 A long time prior to coding this up, I had been digging around for electronics components to match the look of the game. In this case, I had a lot of fun looking at finding a matching GLCD (graphical LCD) to use for the main display.
 
