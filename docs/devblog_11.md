@@ -7,7 +7,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: Let's get physical](devblog_10.md)
+[Prev post: Let's get physical](devblog_10.md) | [Next post: Building the case](devblog_12.md)
 
 ## 2022/05/01 - Coding Passwords and Morse
 Again - playing catch-up with progress - this post covers progress in June to July 2021.
@@ -52,4 +52,4 @@ I didn't tackle the frequency select pointer, but pushed that into the future. I
 
 Next I receive a delivery allowing me to start assembling the case...
 
-[Prev post: Let's get physical](devblog_10.md)
+[Prev post: Let's get physical](devblog_10.md) | [Next post: Building the case](devblog_12.md)
