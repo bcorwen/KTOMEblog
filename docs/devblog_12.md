@@ -58,7 +58,7 @@ One big change at this point was to the modules themselves. The original modules
 
 ### Back-plates and Connections
 
-Sometime later, Miracoulon again came in with some great suggestions to help me design the physical and electrical connectors. I initially wanted a back-plate that the modules would be pushed into, where connectors would match up and allow power and signals to reach the modules. I wasn't sure how to actually design this in, and started to instead look into loose cabling that would have to be attached to the modules before sliding them in place. This brought up a whole heap more questions about how this would work without a tangle of cables inside and making it user friendly to people other than myself. Mira and I brainstormed the back-plate idea again and came up with more 3D printing to save the day.
+Sometime later, Miracoulon again came in with some great suggestions to help me design the physical and electrical connectors. I initially wanted a back-plate that the modules would be pushed into, where connectors would match up and allow power and signals to reach the modules. I wasn't sure how to actually design this in, and started to instead look into loose cabling that would have to be attached to the modules before sliding them in place. This brought up a whole heap more questions about how this would work without having a tangle of cables inside and whiloe making it user friendly to people other than myself. Mira and I brainstormed the back-plate idea again and came up with more 3D printing to save the day.
 
 > ![Design of the back plate](https://i.imgur.com/APkyNPH.png)
 > 
