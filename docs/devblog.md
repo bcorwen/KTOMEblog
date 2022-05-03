@@ -7,6 +7,8 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
+### [2022/05/04 - Building the case](devblog_12.md)
+
 ### [2022/05/01 - Coding Passwords and Morse](devblog_11.md)
 
 ### [2022/04/25 - Let's get physical (Simon and Timer build)](devblog_10.md)
