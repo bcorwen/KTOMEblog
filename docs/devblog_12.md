@@ -7,49 +7,83 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: Let's get physical](devblog_10.md)
+[Prev post: Coding Passwords and Morse](devblog_11.md)
 
-## 2022/05/01 - Coding Passwords and Morse
-Again - playing catch-up with progress - this post covers progress in June to July 2021.
+## 2022/05/01 - Building the case
+More catch-up with prior progress - this post covers progress in July 2021 and very slowly onwards.
 
-Well this isn't the case as promised at the end of the last post! I had designed the case and sent off for parts, but while I waited I managed to knock up two modules on the breadboards, so the case comes later!
+### Case Concept
 
-### Passwords
-This was a new module to code. Unlike th eprevious ones, I hadn't attempted this module on the old Arduino prototype so this was built from scratch.
+So on to the bomb case.
 
-A long time prior to coding this up, I had been digging around for electronics components to match the look of the game. In this case, I had a lot of fun looking at finding a matching GLCD (graphical LCD) to use for the main display.
+My design owes a lot to Syber and Miracoulon, two of the other builders on the Discord. They had the great idea to build their cases from aluminium extrusion, which really looks the part, is strong and very customisable. My only exposure to this was when I put together my 3D printer, so understood only some very basics, but managed to learn enough from looking through online stores that I felt confident enough to put together a plan.
 
-> ![Passwords](https://i.imgur.com/oMkNBHf.jpg)
+Knowing the sizes of the modules, I tried to pick a size of extrustion to appear proportional, looked into the options for that size (e.g. rounded corners and smooth, flat faces on some sides), and knocked it up in CAD to visualise how it would look. The only real variables left would be the depth of the modules and how the modules connected - physically and electrically.
+
+> ![Bomb case CAD](https://i.imgur.com/9ShPnQB.png)
 > 
-> Passwords module after finding the right solution
+> The initial design of the bomb case
 
-Apart from the screen, the hardware just required 11 buttons to make this work. The ESP32 was running low on pins, but it was doable to hook each button to a pin. Instead of taking that easy route, I decided to try a keyboard matrix to handle the buttons as a little challenge. This was fairly straight-forward to wire up after looking at a few resources online, but I needed a whole second breadboard to fit the buttons...
+Instead of going for a simple frame, I went for a more complex (and much heavier) two layer design:
+- The inner section would house the modules and help the user guide them in place.
+- The outer section would house the widgets, and is designed a little thicker than the inner section to give the face of the bomb a recessed appearance.
 
-> ![Passwords with matrix](https://i.imgur.com/hywiyue.jpg)
+Most of the extrusion along the outside would have smooth faces, with only the grooves on the inside to attach the extrusions to one another. This helps keep the look clean and simple.
+
+Without a solid plan for how the modules connect, I placed the order for the initial pieces and got to work
+
+### Initial build
+
+> ![Case extrustions pre-build](https://i.imgur.com/o9OyhRl.jpg)
 > 
-> Passwords module with the button matrix
+> The initial case extrustions pre-assembly
 
-Moving on to the code, this was a tricky one. Tricky two actually...
+It was a lot tougher to bolt the extrusions together than I thought it would, and this was in part due to the difficulty in keeping the corners as close to right-angles as I could - over-tightening an L-bracket would pull the pieces together.
 
-The first issue was getting the letters on the display. Screens like these are supported by the great u8g2 library, however to save space (fonts can take a fair chunk of memory) I decided to manually draw the letters using 4x4 pixel boxes. This worked very quickly and I had great control over where the letters appeared on the display, so I could try to match the design of the game as much as possible.
-
-The second issue was coding the game logic which determined the list of possible letters you can cycle though. In the game, there are 6 letters that can be selected for each of the 5 places in the displayed word. This list, however, must only contain one of the words from the accepted word list - the list of words in the manual that are must be entered to solve the module. I started with a full alphabet of possibilities in each of the 5 places, chose an accepted word which would be the solution to this game, then looped through each of the other accepted words and removed a letter from one of the places at random (thus removing the ability to input that word). But I needed to check that the letters I removed wren't in the selected accepted word, or another letter in another place would be picked to be removed. After eliminating the other accepted words, then more letters would be removed to get down to the 6 letters for each place. And lastly, another final check to make sure that the first possible letters that are initially shown on the screen are not the actual selected word (otherwise the puzzle would come pre-solved!) so this would need a shuffle.
-
-### Morse
-Another new module, this built off both the debugger and Simon so came together fairly quickly.
-
-The blinky light is a simply LED, which needed difficult timings to be set up for each Morse letter. This is where the Simon code could be partially recycled to make this a little easier.
-
-As for inputs, rather than the left and right buttons to select frequency, I opted to diverge from the game and instead use a rotary encoder. This felt like a reasonable choice, as this is a little more of a radio input, and the game was limited by its input methods so would eliminate the ability to use a rotary knob in-game. This was an easy copy from the debugger's code.
-
-Lastly, the display. I used the u8g2 library to draw the lettering. To get the correct font as the game, I needed to go through a few steps to convert the font into a c data file which the library could then use. This was a little painful to do, and I had to do it a few times until I was happy with the size of the font.
-
-> ![Morse](https://i.imgur.com/GYJXWpX.png)
+> ![The inner case](https://i.imgur.com/S3HfLdX.jpg)
 > 
-> Morse code testing
+> The inner case only...
 
-I didn't tackle the frequency select pointer, but pushed that into the future. I had some ideas but without having finalised the module boxes yet, it would have been premature to attempt this now.
+> ![The outer case front](https://i.imgur.com/XolBxrz.jpgg)
+> 
+> Then adding on the outer case
 
-Next I receive a delivery allowing me to start assembling the case...
+> ![The outer case side](https://i.imgur.com/1jr54XS.jpg)
+> 
+> And the view from the side
 
-[Prev post: Let's get physical](devblog_10.md)
+It looks great! This project is almost looking professional...
+
+One big change at this point was to the modules themselves. The original modules, which entirely fit within the 130mm height and width looked completely lost in the case! They were just too small. I ended up redesigning the modules to be a little larger (good for having to fit in the components), leaving the edges of the faces to stick out over the inner case. This would stop the modules being pushed too far inside. Win-win!
+
+### Back-plates and Connections
+
+Sometime later, Miracoulon again came in with some great suggestions to help me design the physical and electrical connectors. I initially wanted a back-plate that the modules would be pushed into, where connectors would match up and allow power and signals to reach the modules. I wasn't sure how to actually design this in, and started to instead look into loose cabling that would have to be attached to the modules before sliding them in place. This brought up a whole heap more questions about how this would work without a tangle of cables inside and making it user friendly to people other than myself. Mira and I brainstormed the back-plate idea again and came up with more 3D printing to save the day.
+
+> ![Design of the back plate](https://i.imgur.com/APkyNPH.png)
+> 
+> Design of the back-plate
+
+The plates would be made up of two identical halves. There was a space for an electrical connector (I went with a serial DB-9 connector, as I had 5 planned lines and the possibility of needing more in future) and I made it quite hollow to allow cabling. There were magnet holders to physically hold the modules in place. And the plates would be held into the case with more L-brackets.
+
+> ![Back-plate](https://i.imgur.com/dtITiYP.jpg)
+> 
+> The finished back-plate
+
+> ![Back-plate and module](https://i.imgur.com/Zwc86AK.jpg)
+> 
+> A back-plate and a module
+
+These worked perfectly. As both the modules and back-plates were designed in CAD, both the magnetic and electrical conncetors married up exactly. Sliding the modules in and out of the case was smooth and easy.
+
+> ![Modules in the case](https://i.imgur.com/HSCafps.jpg)
+> 
+> Two modules back-to-back, sandwiching a back-plate
+
+### Wrapping up
+
+This all happened over the course of a few months. It took a lot of time to build, disassemble, reassemble, etc the case when I needed to make a major adjustment or addition. But it was all starting to come together and I could see what the finished product might actually look like.
+
+There was still a lot of work to be done just on the case. The outer frame was not attached to the inner case for the majority of the time as the widgets and side panels had not been concepted yet, and big questions remained over how this would best be done. So I'll save that story for a later post...
+
+[Prev post: Coding Passwords and Morse](devblog_11.md)
