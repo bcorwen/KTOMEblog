@@ -7,78 +7,71 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: Coding Passwords and Morse](devblog_11.md)
+[Prev post: Building the case](devblog_12.md)
 
-## 2022/05/03 - Building the case
-More catch-up with prior progress - this post covers progress in July 2021 and very slowly onwards.
+## 2022/05/05 - Building The Button and Keypad
+Yet more catch-up with prior progress - this post covers progress from August to September 2021.
 
-### Case Concept
+### The Button
 
-So on to the bomb case.
+This was a very tricky module to design and print. Although the components I needed to integrate are fairly simple (only the button and an RGB LED), copying the look of the game meant this would need  a lot of complex parts.
 
-My design owes a lot to Syber and Miracoulon, two of the other builders on the Discord. They had the great idea to build their cases from aluminium extrusion, which really looks the part, is strong and very customisable. My only exposure to this was when I put together my 3D printer, so understood only some very basics, but managed to learn enough from looking through online stores that I felt confident enough to put together a plan.
+For the LED, as I was used to using the chunky LEDs, it made sense to design a light box that the LED poked into. Similarly to a prior post describing how the transparent PLA used to make the module indicator bulb turning out diffuse and translucent, this same plastic could be printed on the front of the light box so as to catch the light and make a great diffuser.
 
-Knowing the sizes of the modules, I tried to pick a size of extrustion to appear proportional, looked into the options for that size (e.g. rounded corners and smooth, flat faces on some sides), and knocked it up in CAD to visualise how it would look. The only real variables left would be the depth of the modules and how the modules connected - physically and electrically.
+The grey PLA I was using as the main module colour turned out to be slightly transparent itself however, so I covered the inside of the light box in aluminium tape to stop unwanted light leakage. This surprisingly made a big difference in the amount of light that made it to the front where it should be seen.
+
+The last issue for the light box was how to attach it to the front of the module. The module fronts were printed laying on their inner face, so it could not be easily printed as part of the face. Instead this was separated into another part which would need to be bolted to the front face. Yet there is so little space between the light box and two sides of the module that it could not be bolted very securely. My solution was to move some of the material of the module box on to the light box to create a rim, and incorporate the bolts which held the module face to the box, sandwiching the light box.
+
+> ![Rim on the light box](https://i.imgur.com/aJ5DVzg.jpg)
+> 
+> Showing the light box with a rim
+
+> ![The light box sandwiched by the face and box](https://i.imgur.com/AXsluYY.jpg)
+> 
+> The light box sandwiched by the face and box
+
+Sticking with the transparent plastic, the downside to the difficulty in very clear prints meant that the button cover ended up frosted. This isn't ideal but not a deal-breaker. There's certainly no off-the-shelf product that could hold the button given how large these buttons are...
+
+> ![Button cover](https://i.imgur.com/W5ACno1.jpg)
+> 
+> The button cover, still able to squint and see the button inside
+
+The hinge was very difficult to modle and also print, but I think I got quite lucky with this one. I'd started to dial in the tolerances so parts slotted together snuggly, and somehow lucked-out in that the hinge would stay in place so that buton cover won't fall on your fingers when you're holding the button.
+
+For the button mechanism, I had originally thought of clamping it in place but decided to continue my trend of attempting difficult prints and wanted to use the threads of the button mechanism. There are a couple of threads I used: one to screw the main body of the button into the face of the module, and another screw for the button cap. I'd specifically tracked down a mechanism which had detachable button caps to make changing the button really easy between games, and although the thread seemed far too tiny to print, it actually worked very well (and my surprise was very great considering I was eye-balling the thread size with my calipers)! After a lot of trial and error to nail down the start of the thread, I could print buttons which would orient themselves correctly when screwed tightly in place!
+
+Then came a *lot* of printing! I needed 20 buttons for a set: 4 labels in 5 colours. The buttons were printed in two parts and bolted together, which was simply done to keep the print simple and efficient. I also had to spend a lot of time tweaking the font to be able to import it into Fusion 360, and more time to get a two-colour print with my single-extruder printer. Unless you get very close, the button labels look really nice.
+
+> ![Buttons!](https://i.imgur.com/UIkJiwQ.png)
+> 
+> Button bolts and screw thread
+
+> ![Buttons!](https://i.imgur.com/9WIsGkZ.jpg)
+> 
+> Lots of buttons!
+
+And after alllll of that design and printing work, this module was done!
+
+> ![The finished button module](https://i.imgur.com/xPh4FBU.jpg)
+> 
+> The finished Button module
+
+### Keypads
+
+Another tricky one. Again, the main components to integrate were the key switches and LED bulbs, but creating switchable, oversized keycaps involved a *lot* of attempts to get right.
+
+
+
+
+
+
 
 > ![Bomb case CAD](https://i.imgur.com/9ShPnQB.png)
 > 
 > The initial design of the bomb case
 
-Instead of going for a simple frame, I went for a more complex (and much heavier) two layer design:
-- The inner section would house the modules and help the user guide them in place.
-- The outer section would house the widgets, and is designed a little thicker than the inner section to give the face of the bomb a recessed appearance.
 
-Most of the extrusion along the outside would have smooth faces, with only the grooves on the inside to attach the extrusions to one another. This helps keep the look clean and simple.
 
-Without a solid plan for how the modules connect, I placed the order for the initial pieces and got to work
-
-### Initial build
-
-> ![Case extrustions pre-build](https://i.imgur.com/o9OyhRl.jpg)
-> 
-> The initial case extrustions pre-assembly
-
-It was a lot tougher to bolt the extrusions together than I thought it would, and this was in part due to the difficulty in keeping the corners as close to right-angles as I could - over-tightening an L-bracket would pull the pieces together.
-
-> ![The inner case](https://i.imgur.com/S3HfLdX.jpg)
-> 
-> The inner case only...
-
-> ![The outer case front](https://i.imgur.com/XolBxrz.jpgg)
-> 
-> Then adding on the outer case
-
-> ![The outer case side](https://i.imgur.com/1jr54XS.jpg)
-> 
-> And the view from the side
-
-It looks great! This project is almost looking professional...
-
-One big change at this point was to the modules themselves. The original modules, which entirely fit within the 130mm height and width looked completely lost in the case! They were just too small. I ended up redesigning the modules to be a little larger (good for having to fit in the components), leaving the edges of the faces to stick out over the inner case. This would stop the modules being pushed too far inside. Win-win! The modules also changed from having 8 grooves on the sides (designed to help the modules slide in place into the frame) to just 4. To make use of the 8 would have required much more of an extrusion lattice on the inside, and the current mass of extrusion was totalling about 6kg! You may notice a difference in themodule boxes between the module design post and photos shown further down...
-
-### Back-plates and Connections
-
-Sometime later, Miracoulon again came in with some great suggestions to help me design the physical and electrical connectors. I initially wanted a back-plate that the modules would be pushed into, where connectors would match up and allow power and signals to reach the modules. I wasn't sure how to actually design this in, and started to instead look into loose cabling that would have to be attached to the modules before sliding them in place. This brought up a whole heap more questions about how this would work without having a tangle of cables inside and whiloe making it user friendly to people other than myself. Mira and I brainstormed the back-plate idea again and came up with more 3D printing to save the day.
-
-> ![Design of the back plate](https://i.imgur.com/APkyNPH.png)
-> 
-> Design of the back-plate
-
-The plates would be made up of two identical halves. There was a space for an electrical connector (I went with a serial DB-9 connector, as I had 5 planned lines and the possibility of needing more in future) and I made it quite hollow to allow cabling. There were magnet holders to physically hold the modules in place. And the plates would be held into the case with more L-brackets.
-
-> ![Back-plate](https://i.imgur.com/dtITiYP.jpg)
-> 
-> The finished back-plate
-
-> ![Back-plate and module](https://i.imgur.com/Zwc86AK.jpg)
-> 
-> A back-plate and a module
-
-These worked perfectly. As both the modules and back-plates were designed in CAD, both the magnetic and electrical conncetors married up exactly. Sliding the modules in and out of the case was smooth and easy.
-
-> ![Modules in the case](https://i.imgur.com/HSCafps.jpg)
-> 
-> Two modules back-to-back, sandwiching a back-plate
 
 ### Wrapping up
 
@@ -86,4 +79,4 @@ This all happened over the course of a few months. It took a lot of time to buil
 
 There was still a lot of work to be done just on the case. The outer frame was not attached to the inner case for the majority of the time as the widgets and side panels had not been concepted yet, and big questions remained over how this would best be done. So I'll save that story for a later post...
 
-[Prev post: Coding Passwords and Morse](devblog_11.md)
+[Prev post: Building the case](devblog_12.md)
