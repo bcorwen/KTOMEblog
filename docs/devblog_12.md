@@ -7,7 +7,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-[Prev post: Coding Passwords and Morse](devblog_11.md)
+[Prev post: Coding Passwords and Morse](devblog_11.md) | [Next post: Building The Button and Keypads](devblog_13.md)
 
 ## 2022/05/03 - Building the case
 More catch-up with prior progress - this post covers progress in July 2021 and very slowly onwards.
@@ -86,4 +86,4 @@ This all happened over the course of a few months. It took a lot of time to buil
 
 There was still a lot of work to be done just on the case. The outer frame was not attached to the inner case for the majority of the time as the widgets and side panels had not been concepted yet, and big questions remained over how this would best be done. So I'll save that story for a later post...
 
-[Prev post: Coding Passwords and Morse](devblog_11.md)
+[Prev post: Coding Passwords and Morse](devblog_11.md) | [Next post: Building The Button and Keypads](devblog_13.md)
