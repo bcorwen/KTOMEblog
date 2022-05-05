@@ -7,15 +7,19 @@
 ## Design:
 - [ ] : Complete design and print of widgets
 - [X] : Complete design and print of blank modules
+- [ ] : Complete design and print of lower case panels
 - [ ] : Design and print Memory
 - [ ] : Design and print Morse Code
 - [ ] : Design and print Venting Gas
+- [ ] : Design and print Complicated Wires
 
 ## PCB:
 - [X] : Draw up generic PCB schematic and gerber for modules
 - [X] : Order test PCBs
 - [X] : Test PCB (programming, CAN comms, serial connector)
 - [ ] : Create specific module PCBs
+- [ ] : Wire module back-panels
+- [ ] : Wire widget docks
 
 ---
 
@@ -24,7 +28,7 @@
 Module | Find components | Programming | Schematic | PCB built | Physical design | Print and build
 --- | --- | --- | --- | --- | --- | ---
 Timer | x | x | x | - | x | x
-Widgets | x | x | x | - | - | -
+Widgets | x | x | x | - | x | -
 Wires | x | x | x | - | x | x
 Button | x | x | x | - | x | x
 Keypads | x | x | x | - | x | x
