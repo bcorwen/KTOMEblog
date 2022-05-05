@@ -60,23 +60,46 @@ And after alllll of that design and printing work, this module was done!
 
 Another tricky one. Again, the main components to integrate were the key switches and LED bulbs, but creating switchable, oversized keycaps involved a *lot* of attempts to get right.
 
+The main issue with oversized keycaps is that if the caps are pressed near the side (rather than in the middle, above the switch), then this will cause a twisting force between the cap and switch, and the cap can jam or even break off the switch. To tackle this, I decided to increase the distance from the face of the cap to the switch, making the switches super tall, as well as adding in 4 rods to the cap that 
 
-
-
-
-
-
-> ![Bomb case CAD](https://i.imgur.com/9ShPnQB.png)
+> ![Switch holder and keycap](https://i.imgur.com/fNogAXl.jpg)
 > 
-> The initial design of the bomb case
+> Switch holder and keycap
 
+> ![Switch and cap in place](https://i.imgur.com/37lVqzE.jpg)
+> 
+> Switch and cap in place
 
+So with the caps having such a large stand-off from the switch, the switches needed to be held at a good distance from the face of the module. This necessitated the use of a "cradle", which hangs below the face and holds both the switches and the LEDs for the lighting effects.
 
+> ![The key cradle](https://i.imgur.com/qU0d13Q.jpg)
+> 
+> The key cradle
+
+> ![Cradle attached to the module face](https://i.imgur.com/UwRhRpP.jpg)
+> 
+> Cradle attached to the module face
+
+And lastly, another modification to make my life easier when the game is played: splitting the keycaps in two. As the keycaps are tall due to the guiding rods, as well as quite fragile while out of the cradle, all of the possible caps needed for the module would take up a lot of space and would have to be handled carefully. So after identifying this issue, I split the cap into a lower piece with the rods which would stay in place and an upper piece which would be thin and switchable to change symbols displayed.
+
+> ![Cap split](https://i.imgur.com/nVY7n4P.png)
+> 
+> Showing the key cap split in two, to aid in storage and easy of swapping symbols.
+
+This photo above shows an initial version which was just held in place with a push-fit. However, after other builders pointed out there could be quick degredation of the fit after a few cycles, I have designed another version with a magnetic conncetor.
+
+As for the symbols? I could print these into the plastic as I did with the Button's buttons, but as this is supposed to be as keyboard keys, I thought it more thematic to use stickers. These haven't been designed yet, and will probably be done when I'm sure there'll be no more little changes.
 
 ### Wrapping up
 
-This all happened over the course of a few months. It took a lot of time to build, disassemble, reassemble, etc the case when I needed to make a major adjustment or addition, all while working on more module designs and programming new modules. But it was all starting to come together and I could see what the finished product might actually look like.
+At this point, I've closed in the on case design, and have built 4 (pretty tricky) module boxes!
 
-There was still a lot of work to be done just on the case. The outer frame was not attached to the inner case for the majority of the time as the widgets and side panels had not been concepted yet, and big questions remained over how this would best be done. So I'll save that story for a later post...
+> ![Modules so far](https://i.imgur.com/XHjPBuV.jpg)
+> 
+> Showing the inner case and modules made so far at this point in time!
+
+It's starting to come together even more!
+
+The outer case was still being worked on at this point, where the side panels and widgets needed to be designed...
 
 [Prev post: Building the case](devblog_12.md)
