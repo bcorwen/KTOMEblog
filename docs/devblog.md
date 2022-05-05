@@ -7,7 +7,7 @@ I'm currently making short update videos on progress on [my Youtube playlist](ht
 
 ---
 
-### [2022/05/04 - Building The Button and Keypads](devblog_13.md)
+### [2022/05/06 - Building The Button and Keypads](devblog_13.md)
 
 ### [2022/05/04 - Building the case](devblog_12.md)
 
