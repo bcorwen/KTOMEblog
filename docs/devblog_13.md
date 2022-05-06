@@ -60,7 +60,7 @@ And after alllll of that design and printing work, this module was done!
 
 Another tricky one. Again, the main components to integrate were the key switches and LED bulbs, but creating switchable, oversized keycaps involved a *lot* of attempts to get right.
 
-The main issue with oversized keycaps is that if the caps are pressed near the side (rather than in the middle, above the switch), then this will cause a twisting force between the cap and switch, and the cap can jam or even break off the switch. To tackle this, I decided to increase the distance from the face of the cap to the switch, making the switches super tall, as well as adding in 4 rods to the cap that 
+The main issue with oversized keycaps is that if the caps are pressed near the side (rather than in the middle, above the switch), then this will cause a twisting force between the cap and switch, and the cap can jam or even break off the switch. To tackle this, I decided to increase the distance from the face of the cap to the switch, making the switches super tall, as well as adding in 4 rods to the cap thatwould act as stabilisers.
 
 > ![Switch holder and keycap](https://i.imgur.com/fNogAXl.jpg)
 > 
