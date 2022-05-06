@@ -40,11 +40,11 @@ The hinge was very difficult to modle and also print, but I think I got quite lu
 
 For the button mechanism, I had originally thought of clamping it in place but decided to continue my trend of attempting difficult prints and wanted to use the threads of the button mechanism. There are a couple of threads I used: one to screw the main body of the button into the face of the module, and another screw for the button cap. I'd specifically tracked down a mechanism which had detachable button caps to make changing the button really easy between games, and although the thread seemed far too tiny to print, it actually worked very well (and my surprise was very great considering I was eye-balling the thread size with my calipers)! After a lot of trial and error to nail down the start of the thread, I could print buttons which would orient themselves correctly when screwed tightly in place!
 
-Then came a *lot* of printing! I needed 20 buttons for a set: 4 labels in 5 colours. The buttons were printed in two parts and bolted together, which was simply done to keep the print simple and efficient. I also had to spend a lot of time tweaking the font to be able to import it into Fusion 360, and more time to get a two-colour print with my single-extruder printer. Unless you get very close, the button labels look really nice.
-
 > ![Buttons!](https://i.imgur.com/UIkJiwQ.png)
 > 
 > Button bolts and screw thread
+
+Then came a *lot* of printing! I needed 20 buttons for a set: 4 labels in 5 colours. The buttons were printed in two parts and bolted together, which was simply done to keep the print simple and efficient. I also had to spend a lot of time tweaking the font to be able to import it into Fusion 360, and more time to get a two-colour print with my single-extruder printer. Unless you get very close, the button labels look really nice.
 
 > ![Buttons!](https://i.imgur.com/9WIsGkZ.jpg)
 > 
