@@ -27,19 +27,19 @@
 
 Module | Find components | Programming | Schematic | PCB built | Physical design | Print and build
 --- | --- | --- | --- | --- | --- | ---
-Timer | x | x | x | - | x | x
-Widgets | x | x | x | - | x | -
-Wires | x | x | x | - | x | x
-Button | x | x | x | - | x | x
-Keypads | x | x | x | - | x | x
-Simon Says | x | x | x | - | x | x
+Timer | ✓ | ✓ | ✓ | - | ✓ | ✓
+Widgets | ✓ | ✓ | ✓ | - | ✓ | -
+Wires | ✓ | ✓ | ✓ | - | ✓ | ✓
+Button | ✓ | ✓ | ✓ | - | ✓ | ✓
+Keypads | ✓ | ✓ | ✓ | - | ✓ | ✓
+Simon Says | ✓ | ✓ | ✓ | - | ✓ | ✓
 Who's on First | - | - | - | - | - | -
-Memory | x | x | x | - | x | x
-Morse Code | x | x | x | - | - | -
-Complicated Wires | x | x | x | - | - | -
+Memory | ✓ | ✓ | ✓ | - | ✓ | ✓
+Morse Code | ✓ | ✓ | ✓ | - | - | -
+Complicated Wires | ✓ | ✓ | ✓ | - | - | -
 Wire Sequences | - | - | - | - | - | -
-Mazes | x | - | - | - | - | -
-Passwords | x | x | x | - | x | x
-Venting Gas | x | x | x | - | - | -
+Mazes | ✓ | - | - | - | - | -
+Passwords | ✓ | ✓ | ✓ | - | ✓ | ✓
+Venting Gas | ✓ | ✓ | ✓ | - | - | -
 Capacitor Discharge | - | - | - | - | - | -
 Knobs | - | - | - | - | - | -
