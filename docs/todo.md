@@ -5,7 +5,7 @@
 # Current Tasks
 
 ## Design:
-- [ ] : Complete design and print of widgets
+- [X] : Complete design and print of widgets
 - [X] : Complete design and print of blank modules
 - [ ] : Complete design and print of lower case panels
 - [ ] : Design and print Memory
@@ -28,7 +28,7 @@
 Module | Find components | Programming | Schematic | PCB built | Physical design | Print and build
 --- | --- | --- | --- | --- | --- | ---
 Timer | ✓ | ✓ | ✓ | - | ✓ | ✓
-Widgets | ✓ | ✓ | ✓ | - | ✓ | -
+Widgets | ✓ | ✓ | ✓ | - | ✓ | ✓
 Wires | ✓ | ✓ | ✓ | - | ✓ | ✓
 Button | ✓ | ✓ | ✓ | - | ✓ | ✓
 Keypads | ✓ | ✓ | ✓ | - | ✓ | ✓
