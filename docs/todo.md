@@ -7,11 +7,11 @@
 ## Design:
 - [X] : Complete design and print of widgets
 - [X] : Complete design and print of blank modules
-- [ ] : Complete design and print of lower case panels
-- [ ] : Design and print Memory
-- [ ] : Design and print Morse Code
+- [X] : Complete design and print of lower case panels
+- [X] : Design and print Memory
+- [X] : Design and print Morse Code
 - [ ] : Design and print Venting Gas
-- [ ] : Design and print Complicated Wires
+- [X] : Design and print Complicated Wires
 
 ## PCB:
 - [X] : Draw up generic PCB schematic and gerber for modules
@@ -19,7 +19,7 @@
 - [X] : Test PCB (programming, CAN comms, serial connector)
 - [ ] : Create specific module PCBs
 - [ ] : Wire module back-panels
-- [ ] : Wire widget docks
+- [X] : Wire widget docks
 
 ---
 
@@ -28,18 +28,18 @@
 Module | Find components | Programming | Schematic | PCB built | Physical design | Print and build
 --- | --- | --- | --- | --- | --- | ---
 Timer | ✓ | ✓ | ✓ | - | ✓ | ✓
-Widgets | ✓ | ✓ | ✓ | - | ✓ | ✓
+Widgets | ✓ | ✓ | ✓ | ✓ | ✓ | ✓
 Wires | ✓ | ✓ | ✓ | - | ✓ | ✓
 Button | ✓ | ✓ | ✓ | - | ✓ | ✓
 Keypads | ✓ | ✓ | ✓ | - | ✓ | ✓
-Simon Says | ✓ | ✓ | ✓ | - | ✓ | ✓
+Simon Says | ✓ | ✓ | ✓ | ✓ | ✓ | ✓
 Who's on First | - | - | - | - | - | -
 Memory | ✓ | ✓ | ✓ | - | ✓ | ✓
-Morse Code | ✓ | ✓ | ✓ | - | - | -
-Complicated Wires | ✓ | ✓ | ✓ | - | - | -
+Morse Code | ✓ | ✓ | ✓ | - | ✓ | ✓
+Complicated Wires | ✓ | ✓ | ✓ | - | ✓ | -
 Wire Sequences | - | - | - | - | - | -
 Mazes | ✓ | - | - | - | - | -
 Passwords | ✓ | ✓ | ✓ | - | ✓ | ✓
 Venting Gas | ✓ | ✓ | ✓ | - | - | -
-Capacitor Discharge | - | - | - | - | - | -
+Capacitor Discharge | ✓ | ✓ | ✓ | ✓ | - | -
 Knobs | - | - | - | - | - | -
